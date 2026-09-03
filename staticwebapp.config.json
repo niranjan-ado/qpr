@@ -1,0 +1,305 @@
+{
+  "$schema": "https://json.schemastore.org/staticwebapp.config.json",
+  "trailingSlash": "auto",
+  "routes": [
+    {
+      "route": "/wp-comments-post.php",
+      "statusCode": 410
+    },
+    {
+      "route": "/wp-links-opml.php",
+      "statusCode": 410
+    },
+    {
+      "route": "/wp-trackback.php",
+      "statusCode": 410
+    },
+    {
+      "route": "/wp-activate.php",
+      "statusCode": 410
+    },
+    {
+      "route": "/wp-sitemap.xml",
+      "statusCode": 410
+    },
+    {
+      "route": "/wp-signup.php",
+      "statusCode": 410
+    },
+    {
+      "route": "/wp-config.php",
+      "statusCode": 410
+    },
+    {
+      "route": "/wp-login.php",
+      "statusCode": 410
+    },
+    {
+      "route": "/wp-cron.php",
+      "statusCode": 410
+    },
+    {
+      "route": "/wp-mail.php",
+      "statusCode": 410
+    },
+    {
+      "route": "/readme.html",
+      "statusCode": 410
+    },
+    {
+      "route": "/license.txt",
+      "statusCode": 410
+    },
+    {
+      "route": "/xmlrpc.php",
+      "statusCode": 410
+    },
+    {
+      "route": "/*.html",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "route": "/.env",
+      "statusCode": 410
+    },
+    {
+      "route": "/",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "route": "/pathfinder-training-beyond-qpr*",
+      "redirect": "/courses",
+      "statusCode": 301
+    },
+    {
+      "route": "/qpr-for-primary-care-providers*",
+      "redirect": "/courses",
+      "statusCode": 301
+    },
+    {
+      "route": "/mental-health-professionals*",
+      "redirect": "/courses",
+      "statusCode": 301
+    },
+    {
+      "route": "/mental-health-professional*",
+      "redirect": "/courses",
+      "statusCode": 301
+    },
+    {
+      "route": "/educational-institutions*",
+      "redirect": "/institutions",
+      "statusCode": 301
+    },
+    {
+      "route": "/qpr-gatekeeper-training*",
+      "redirect": "/courses",
+      "statusCode": 301
+    },
+    {
+      "route": "/become-an-instructor-2*",
+      "redirect": "/become-an-instructor",
+      "statusCode": 301
+    },
+    {
+      "route": "/became-an-instructor*",
+      "redirect": "/become-an-instructor",
+      "statusCode": 301
+    },
+    {
+      "route": "/qpr-pro-gatekeeper*",
+      "redirect": "/courses",
+      "statusCode": 301
+    },
+    {
+      "route": "/view-all-courses*",
+      "redirect": "/courses",
+      "statusCode": 301
+    },
+    {
+      "route": "/privacy-policy-2*",
+      "redirect": "/privacy-policy",
+      "statusCode": 301
+    },
+    {
+      "route": "/product-category*",
+      "redirect": "/courses",
+      "statusCode": 301
+    },
+    {
+      "route": "/research-theory*",
+      "redirect": "/about",
+      "statusCode": 301
+    },
+    {
+      "route": "/qpr-path-finder*",
+      "redirect": "/courses",
+      "statusCode": 301
+    },
+    {
+      "route": "/qpr-pathfinder*",
+      "redirect": "/courses",
+      "statusCode": 301
+    },
+    {
+      "route": "/comments/feed*",
+      "statusCode": 410
+    },
+    {
+      "route": "/contact-page*",
+      "redirect": "/contact",
+      "statusCode": 301
+    },
+    {
+      "route": "/wp-includes/*",
+      "statusCode": 410
+    },
+    {
+      "route": "/wp-content/*",
+      "statusCode": 410
+    },
+    {
+      "route": "/my-account/*",
+      "statusCode": 410
+    },
+    {
+      "route": "/workplaces*",
+      "redirect": "/institutions",
+      "statusCode": 301
+    },
+    {
+      "route": "/contact-us*",
+      "redirect": "/contact",
+      "statusCode": 301
+    },
+    {
+      "route": "/wp-sitemap*",
+      "statusCode": 410
+    },
+    {
+      "route": "/about-qpr*",
+      "redirect": "/about",
+      "statusCode": 301
+    },
+    {
+      "route": "/workplace*",
+      "redirect": "/institutions",
+      "statusCode": 301
+    },
+    {
+      "route": "/wp-admin/*",
+      "statusCode": 410
+    },
+    {
+      "route": "/checkout/*",
+      "statusCode": 410
+    },
+    {
+      "route": "/category/*",
+      "statusCode": 410
+    },
+    {
+      "route": "/wp-json/*",
+      "statusCode": 410
+    },
+    {
+      "route": "/storage/*",
+      "statusCode": 410
+    },
+    {
+      "route": "/cgi-sys/*",
+      "statusCode": 410
+    },
+    {
+      "route": "/cgi-bin/*",
+      "statusCode": 410
+    },
+    {
+      "route": "/faculty*",
+      "redirect": "/about",
+      "statusCode": 301
+    },
+    {
+      "route": "/product*",
+      "redirect": "/courses",
+      "statusCode": 301
+    },
+    {
+      "route": "/wc-api/*",
+      "statusCode": 410
+    },
+    {
+      "route": "/author/*",
+      "statusCode": 410
+    },
+    {
+      "route": "/assets/*",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "route": "/cart/*",
+      "statusCode": 410
+    },
+    {
+      "route": "/page/*",
+      "statusCode": 410
+    },
+    {
+      "route": "/.git/*",
+      "statusCode": 410
+    },
+    {
+      "route": "/qprt*",
+      "redirect": "/courses",
+      "statusCode": 301
+    },
+    {
+      "route": "/home*",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/shop*",
+      "redirect": "/courses",
+      "statusCode": 301
+    },
+    {
+      "route": "/feed*",
+      "statusCode": 410
+    },
+    {
+      "route": "/tag/*",
+      "statusCode": 410
+    },
+    {
+      "route": "/20*",
+      "statusCode": 410
+    }
+  ],
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/410.html",
+      "statusCode": 410
+    }
+  },
+  "globalHeaders": {
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+    "Content-Security-Policy": "default-src 'self'; script-src 'self' 'sha256-qC7pvOEs4sqZZz1RHunOzYiiXD6GAePE3sKNw+pj1KU='; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; manifest-src 'self'; form-action 'self'; frame-ancestors 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=(), interest-cohort=()",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Cross-Origin-Resource-Policy": "same-origin"
+  },
+  "mimeTypes": {
+    ".webmanifest": "application/manifest+json",
+    ".svg": "image/svg+xml"
+  }
+}

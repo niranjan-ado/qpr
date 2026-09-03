@@ -1,0 +1,12 @@
+{
+  "name": "QPR India — Suicide prevention training",
+  "short_name": "QPR India",
+  "description": "Question, Persuade, Refer. Three steps anyone can learn to help prevent suicide.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F7F9FA",
+  "theme_color": "#62181E",
+  "lang": "en-IN",
+  "icons": [{ "src": "/assets/img/logo.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
